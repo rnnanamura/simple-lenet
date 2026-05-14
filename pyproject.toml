@@ -12,4 +12,11 @@ dependencies = [
     "torchvision==0.26.0",
     "typing_extensions==4.15.0",
     "nltk>=3.7",
+    "pycocotools>=2.0.7",
+    "pillow>=12.2.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "src/cnn-lstm",
 ]
