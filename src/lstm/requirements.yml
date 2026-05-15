@@ -1,0 +1,17 @@
+name: lstm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pytorch
+  - torchtext
+  - pytorch-cuda=12.4
+  - docopt
+  - matplotlib>=3.8.3
+  - pip
+  - pip:
+    - numpy
+    - tqdm

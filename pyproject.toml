@@ -19,5 +19,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "src/cnn-lstm",
-    "src/rnn",
+    "src/lstm",
 ]
