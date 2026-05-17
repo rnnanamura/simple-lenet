@@ -1,0 +1,16 @@
+name: transformers
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - pytorch
+  - torchtext
+  - pytorch-cuda>=12.4
+  - docopt
+  - pip
+  - pip:
+    - numpy
+    - tqdm
