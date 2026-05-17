@@ -1,0 +1,12 @@
+  [project]
+  name = "rand_wire_rnn"
+  version = "0.1.0"
+  requires-python = ">=3.13"
+  dependencies = [
+    "torch>=2.0.0",
+    "torchviz>=0.0.2",
+    "torchvision>=0.17.0",
+    "pyyaml>=6.0.3",
+    "matplotlib>=3.10.9",
+    "docopt>=0.6.2",
+]

@@ -1,0 +1,20 @@
+name: rand_wire_rnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pytorch
+  - pytorch-cuda>=12.4
+  - torchvision>=0.17.0
+  - torchviz>=0.0.2
+  - torch
+  - docopt
+  - matplotlib>=3.8.3
+  - pip
+  - pip:
+    - numpy
+    - tqdm
+    - yaml

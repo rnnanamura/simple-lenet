@@ -20,5 +20,5 @@ dependencies = [
 members = [
     "src/cnn-lstm",
     "src/lstm",
-    "src/transformers",
+    "src/rand_wire_rnn",
 ]
